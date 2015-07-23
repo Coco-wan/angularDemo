@@ -1,0 +1,18 @@
+1、使用Yeoman搭建AngularJS + Ionic + Cordova环境
+     环境搭建所需文件在“angularJS编译环境”文件夹下
+
+     第一步：安装node.js ----> node-v0.12.2-x64.msi
+
+     第二步：安装android-sdk（先安装jdk），sdk的安装只需要解压就好。然后更新各种版本的sdk。这里直接使用了之前高人更新了的sdk，以及eclipse。然后配置如下四个环境变量：
+     ANDROID_HOME =  D:\Android\adt-bundle3\adt-bundle-windows-x86-20131030\sdk
+     ANDROID_PLATFORM_TOOLS = D:\Android\adt-bundle3\adt-bundle-windows-x86-20131030\sdk\platform-tools
+     ANDROID_TOOLS = D:\Android\adt-bundle3\adt-bundle-windows-x86-20131030\sdk\tools
+     在path 最后，添加  ;%ANDROID_HOME%
+     android-sdk更新缓慢可以参考《android sdk 更新镜像服务器》
+
+     第三步：安装cordova ----> npm install -g cordova
+     安装cordova的过程可能会失败会这非常缓慢，换国内源试一下。
+     cordova编译一个helloworld项目总是失败，还需要尝试。
+
+     第四步：安装git
+     
